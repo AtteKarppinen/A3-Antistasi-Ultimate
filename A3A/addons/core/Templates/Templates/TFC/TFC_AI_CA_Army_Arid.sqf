@@ -348,9 +348,9 @@ _eliteLoadoutData set ["sidearms", [
 
 private _militaryLoadoutData = _loadoutData call _fnc_copyLoadoutData;
 _militaryLoadoutData set ["uniforms", ["TFC_CU_CombatUniform_tunic_cadpat_AR", "TFC_CU_CombatUniform_otw_cadpat_AR"]];
-_militaryLoadoutData set ["vests", ["TFC_CV_SORD_Ballistic_AR", "TFC_CV_SORD"]];
-_militaryLoadoutData set ["MGvests", ["TFC_CV_OTV_BV_ar"]];
-_militaryLoadoutData set ["MEDvests", ["TFC_CV_SORD"]];
+_militaryLoadoutData set ["vests", ["TFC_CV_SORD_Ballistic_AR", "rhsusf_mbav_rifleman"]];
+_militaryLoadoutData set ["MGvests", ["TFC_CV_OTV_BV_ar", "rhsusf_mbav_mg"]];
+_militaryLoadoutData set ["MEDvests", ["TFC_CV_SORD", "rhsusf_mbav_medic"]];
 _militaryLoadoutData set ["SLvests", ["TFC_CV_SORD_Ballistic_AR"]];
 _militaryLoadoutData set ["SNIvests", ["TFC_CV_SORD"]];
 _militaryLoadoutData set ["GLvests", ["TFC_CV_OTV_BV_ar"]];
@@ -425,8 +425,8 @@ _policeLoadoutData set ["sidearms", ["tfc_w_bhp"]];
 ////////////////////////////////
 
 private _militiaLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_militiaLoadoutData set ["uniforms", ["TFC_CU_CombatUniform_otw_cadpat_AR", "TFC_CU_CombatUniform_tunic_cadpat_AR"]];
-_militiaLoadoutData set ["vests", ["V_SmershVest_01_F", "V_Chestrig_khk", "TFC_CV_BV_ar"]];
+_militiaLoadoutData set ["uniforms", ["TFC_CU_CombatUniform_tunic_cadpat_AR"]];
+_militiaLoadoutData set ["vests", ["TFC_CV_BV_ar", "rhsusf_mbav_light"]];
 _militiaLoadoutData set ["backpacks", ["TFC_CB_Smallpack_AR", "TFC_CB_Medbag_ar"]];
 _militiaLoadoutData set ["atBackpacks", ["tfc_cb_Carryall_AR"]];
 _militiaLoadoutData set ["helmets", ["TFC_CH_CG634_CADPAT_AR", "TFC_CH_CG634_CADPAT_GG_AR", "TFC_CH_BCAP_AR"]];

@@ -167,7 +167,7 @@ _loadoutData set ["SNIvests", []];
 _loadoutData set ["GLvests", []];
 _loadoutData set ["vests", []];
 _loadoutData set ["backpacks", []];
-_loadoutData set ["atBackpacks", ["TFC_CB_CTS_Rucksack_TW"]];
+_loadoutData set ["atBackpacks", ["B_Kitbag_rgr"]];
 _loadoutData set ["longRangeRadios", ["TFC_CB_Smallpack_TW_TFAR"]];
 _loadoutData set ["helmets", []];
 _loadoutData set ["slHat", ["TFC_CH_CG634_CADPAT_SCRIM_01_TW", "TFC_CH_CG634_CADPAT_GG_TW"]];
@@ -351,9 +351,9 @@ _eliteLoadoutData set ["sidearms", [
 
 private _militaryLoadoutData = _loadoutData call _fnc_copyLoadoutData;
 _militaryLoadoutData set ["uniforms", ["TFC_CU_CombatUniform_tunic_cadpat_TW", "TFC_CU_CombatUniform_otw_cadpat_TW"]];
-_militaryLoadoutData set ["vests", ["TFC_CV_SORD_Ballistic_TW", "TFC_CV_SORD"]];
-_militaryLoadoutData set ["MGvests", ["TFC_CV_OTV_BV_tw"]];
-_militaryLoadoutData set ["MEDvests", ["TFC_CV_SORD"]];
+_militaryLoadoutData set ["vests", ["TFC_CV_SORD_Ballistic_TW", "TFC_CV_SORD", "rhsusf_mbav_rifleman"]];
+_militaryLoadoutData set ["MGvests", ["TFC_CV_OTV_BV_tw", "rhsusf_mbav_mg"]];
+_militaryLoadoutData set ["MEDvests", ["TFC_CV_SORD", "rhsusf_mbav_medic"]];
 _militaryLoadoutData set ["SLvests", ["TFC_CV_SORD_Ballistic_TW"]];
 _militaryLoadoutData set ["SNIvests", ["TFC_CV_SORD"]];
 _militaryLoadoutData set ["GLvests", ["TFC_CV_OTV_BV_tw"]];
@@ -426,10 +426,10 @@ _policeLoadoutData set ["sidearms", ["tfc_w_bhp"]];
 ////////////////////////////////
 
 private _militiaLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_militiaLoadoutData set ["uniforms", ["TFC_CU_CombatUniform_otw_cadpat_TW", "TFC_CU_CombatUniform_tunic_cadpat_TW"]];
-_militiaLoadoutData set ["vests", ["V_SmershVest_01_F", "V_PlateCarrierIA1_dgtl", "V_Chestrig_rgr", "TFC_CV_BV_tw"]];
+_militiaLoadoutData set ["uniforms", ["TFC_CU_CombatUniform_tunic_cadpat_TW"]];
+_militiaLoadoutData set ["vests", ["TFC_CV_BV_tw", "rhsusf_mbav_light"]];
 _militiaLoadoutData set ["backpacks", ["TFC_CB_Smallpack_TW", "TFC_CB_Medbag_tw"]];
-_militiaLoadoutData set ["atBackpacks", ["TFC_CB_CTS_Rucksack_TW"]];
+_militiaLoadoutData set ["atBackpacks", ["B_Kitbag_rgr"]];
 _militiaLoadoutData set ["helmets", ["TFC_CH_CG634_CADPAT_TW", "TFC_CH_CG634_CADPAT_SCRIM_L_01_TW", "TFC_CH_CG634_CADPAT_SCRIM_01_TW"]];
 _militiaLoadoutData set ["slHat", ["TFC_CH_CG634_CADPAT_SCRIM_L_01_TW", "TFC_CH_CG634_CADPAT_GG_TW"]];
 _militiaLoadoutData set ["sniHats", ["TFC_CH_CG634_CADPAT_SCRIM_L_01_TW"]];
