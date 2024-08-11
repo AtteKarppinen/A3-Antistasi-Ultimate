@@ -67,7 +67,7 @@
 
 ["staticMGs", ["3AS_HeavyRepeater_Unarmoured"]] call _fnc_saveToTemplate;
 ["staticAT", ["3as_ParticleCannon"]] call _fnc_saveToTemplate;
-["staticAA", ["AA_Turret"]] call _fnc_saveToTemplate;
+["staticAA", ["3AS_Deka_Static"]] call _fnc_saveToTemplate;
 ["staticMortars", ["3AS_CIS_Mortar"]] call _fnc_saveToTemplate;
 ["staticHowitzers", []] call _fnc_saveToTemplate;
 
