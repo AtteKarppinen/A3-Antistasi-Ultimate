@@ -39,8 +39,14 @@
 ["vehiclesAmphibious", []] call _fnc_saveToTemplate;
 
 ["vehiclesPlanesCAS", ["cwr3_b_usmc_av8b"]] call _fnc_saveToTemplate;
-["vehiclesPlanesAA", ["cwr3_b_usmc_f4s"]] call _fnc_saveToTemplate;
+private _vehiclesPlanesAA = ["cwr3_b_usmc_f4s"];
 ["vehiclesPlanesTransport", ["cwr3_b_usmc_c130"]] call _fnc_saveToTemplate;
+
+if (isClass (configFile >> "CfgPatches" >> "FIR_F14D_F")) then {
+	_vehiclesPlanesAA append ["FIR_F14D"];
+};
+
+["vehiclesPlanesAA", _vehiclesPlanesAA] call _fnc_saveToTemplate;
 
 ["vehiclesHelisLight", ["cwr3_b_usmc_uh1"]] call _fnc_saveToTemplate;
 ["vehiclesHelisTransport", ["cwr3_b_usmc_ch53e", "cwr3_b_usmc_ch53e_viv"]] call _fnc_saveToTemplate;

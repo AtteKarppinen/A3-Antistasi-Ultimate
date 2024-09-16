@@ -819,5 +819,10 @@ class planeLoadouts
         {
             mainGun = "sab_fl_4x_hmg_weapon";
         };
+        class FIR_F14D 
+        {
+            loadout[] = {"FIR_AIM9M_LAU138_P_1rnd_M","FIR_AIM9M_LAU138_P_1rnd_M","FIR_AIM7_P_1rnd_M","FIR_AIM7_P_1rnd_M","FIR_AIM54_P_1rnd_M","FIR_AIM54_P_1rnd_M","FIR_AIM54_P_1rnd_M","FIR_AIM54_P_1rnd_M","FIR_F14_Fueltank_P_1rnd_M"};
+            mainGun = "FIR_M61A2";
+        };
     };
 };
